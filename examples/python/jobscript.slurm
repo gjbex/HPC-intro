@@ -1,5 +1,5 @@
 #!/usr/bin/env -S bash -l
-#SBATCH --acount=<your_account>
+#SBATCH --account=<your_account>
 #SBATCH --cluster=<your_cluster>
 #SBATCH --time=00:05:00
 

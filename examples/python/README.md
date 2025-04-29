@@ -5,13 +5,15 @@ using the Slurm workload manager. The script generates a plot of a cosine wave
 as well as text output.
 
 *Note:* This example assumes you have a working Python environment with the
-required libraries installed.  The `environment.yml` file to create such an
-environment is provided.  You can create the environment using the following
-command:
+required libraries installed.
 
-```bash
-$ conda env create -f environment.yml
-```
+* First install conda, follow the instructions you find the the [VSC
+  documentation](https://docs.vscentrum.be/).
+* Next install the environment using the `environment.yml` file provided in
+  this directory, you the following command:
+  ```bash
+  $ conda env create -f environment.yml
+  ```
 
 *Note:* The jobscript has to be modified.  You have to change
 * the <your_account> to your account name, i.e., a credit account you have access to.

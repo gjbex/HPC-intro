@@ -37,8 +37,8 @@ def save_results(x, y, out_file):
 def plot_cosine(x, y, image_file):
     plt.plot(x, y)
     plt.title('Cosine Function')
-    plt.xlabel('$\theta$')
-    plt.ylabel('$\cos(\theta)$')
+    plt.xlabel(r'$\theta$')
+    plt.ylabel(r'$\cos(\theta)$')
     plt.savefig(image_file)
 
 def main():

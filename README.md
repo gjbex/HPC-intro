@@ -9,3 +9,4 @@ Material to use during HPC introductory sessions.
    to what is usually illustrated on a whiteboard during one-on-one introduction
    sessions.  It contains slides that are specific to the KU Leuven/UHasselt VSC
    infrastructure.
+1. `examples`: jobscripts to run command tasks on an HPC system.

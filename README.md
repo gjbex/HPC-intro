@@ -9,6 +9,9 @@ Material to use during HPC introductory sessions.
    to what is usually illustrated on a whiteboard during one-on-one introduction
    sessions.  It contains slides that are specific to the KU Leuven/UHasselt VSC
    infrastructure.
+1. `bash_command_glossary.md`: a glossary of common bash commands and their
+   equivalents in the VSC environment.  It is not exhaustive, but it contains
+   the most common commands that are used during the training sessions.
 1. `examples`: jobscripts to run command tasks on an HPC system.
 1. [License](LICENSE): license information for the material in this repository.
 1. [Contributing](CONTRIBUTING.md): information on how to contribute to this

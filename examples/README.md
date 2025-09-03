@@ -9,3 +9,4 @@ Some examples of how to run jobs on an HPC cluster.
    conda environment.
 1. `r`: running an R script in a job, the script uses libraries available
    via a module.
+1. `multithreading`: running a multi-threaded application in a Slurm job.

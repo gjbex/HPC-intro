@@ -1,5 +1,6 @@
 #!/usr/bin/env -S bash -l
-#SBATCH --account=lpt2_sysadmin
+#SBATCH --account=<your-account>
+#SBATCH --cluster=<your-cluster>
 #SBATCH --nodes=1  --ntasks=1
 #SBATCH --mem=2G
 #SBATCH --time=00:10:00

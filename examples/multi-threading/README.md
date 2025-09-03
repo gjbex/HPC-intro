@@ -1,4 +1,4 @@
-# Multithreading
+# Multi-threading
 
 Some applications can run multiple threads to leverage the processing power
 of more than one CPU core.  Running such an application in a Slurm job

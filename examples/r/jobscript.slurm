@@ -5,7 +5,7 @@
 
 # first clean up your environment, then load R
 module purge &> /dev/null
-module load R/4.4.0-gfbf-2023a
+module load R-bundle-CRAN/2024.11-foss-2024a
 
 # define output directory and create it if it does not exist
 OUTDIR="output"
@@ -15,6 +15,6 @@ mkdir -p $OUTDIR
 QUANTITY="tempmax"
 
 Rscript ./weather-analysis.R  \
-    --input data/London.csv   \
+    --city London             \
     --quantity "$QUANTITY"    \
     --output $OUTDIR/$QUANTITY.csv
